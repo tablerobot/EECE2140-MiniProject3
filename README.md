@@ -29,5 +29,7 @@ Copilot helped generate ideas for the clamp function and median filtering approa
 I wrote and verified the file input output logic using references and the value validation myself.
 In many cases Co-Pilot provided advanced examples that far exceeded my knowledge and understanding, and I sought out google provided references to ensure the code actually represented my level of knowledge, since I could not parse Co-Pilot's examples to pick and pull what I liked. 
 
+I had a lot of simple bugs such as not clamping pixels correctly and simple syntax mistakes that Co-Pilot helped identify and provide options to fix.
+
 Terminal Output Example:
 <img width="2030" height="581" alt="image" src="https://github.com/user-attachments/assets/ce4d022a-2db2-4151-871d-6e9797eeaa31" />
