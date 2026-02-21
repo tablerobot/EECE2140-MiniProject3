@@ -1,5 +1,5 @@
 # EECE2140-MiniProject3
-Mini Project 3 Image Denoising
+Mini Project 3 Image Denoising Filter
 
 Author Hayden Trent
 
@@ -10,7 +10,7 @@ Build
 Make sure you have a C++ compiler such as g++
 
 Compile with
-g++ main.cpp -o denoise
+g++ main.cpp -o filter
 
 Run
 denoise input.txt output.txt median 1
