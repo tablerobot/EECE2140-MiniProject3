@@ -14,17 +14,29 @@ g++ main.cpp -o filter
 
 **Provided Test Files:**
 
+
 img1.txt
+
 **Test 1 small matrix**
+
 Purpose verify the filter works on a small image
+
 Expected result center noisy values are reduced and surrounding values become similar
 
+
 img2.txt
+
 **Test 2 salt and pepper noise**
+
 Purpose test random high and low noise pixels
+
 Expected result extreme values like 0 or 255 are smoothed by the median filter
 
+
 img3.txt
+
 **Test 3 border handling**
+
 Purpose check edges of the image
+
 Expected result border pixels are processed correctly because clamp replicates edge values
